@@ -75,7 +75,9 @@
     align-content: stretch;
     align-items: flex-start;
   }
+}
 
+@media (min-width: 1024px) {
   .box-feature__content h2 {
     font-size: 64px;
     line-height: 74px;
