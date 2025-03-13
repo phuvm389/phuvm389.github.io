@@ -10,7 +10,6 @@
   display: grid;
   gap: 4px;
   grid-template-columns: 1fr 1fr;
-
 }
 
 .images-texts__images img {
@@ -21,12 +20,15 @@
   margin-top: 22px;
 }
 
+.images-texts__texts p:last-child {
+  margin-bottom: 6px;
+}
+
 @media (min-width: 1024px) {
   .images-texts {
     max-width: 810px;
   }
 
-  .images-texts__texts,
   .images-texts__title {
     margin-bottom: 46px;
   }
@@ -34,5 +36,9 @@
   .images-texts__images {
     gap: 32px;
     padding-inline: 10px;
+  }
+
+  .images-texts__texts {
+    margin-top: 46px;
   }
 }
