@@ -2,7 +2,7 @@ body {
   font-family: "Lato", serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 22px;
   margin: 0;
   color: #2C2A29;
@@ -53,10 +53,14 @@ small {
 
 .container {
   max-width: 1440px;
-  margin-inline: 16px;
+  margin-inline: 10px;
 }
 
 @media (min-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
   .h1,
   h1 {
     font-size: 64px;
@@ -77,6 +81,11 @@ small {
   .container {
     margin-inline: 64px;
   }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 @media (min-width: 1440px) {

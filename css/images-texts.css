@@ -1,0 +1,38 @@
+.images-texts {
+  text-align: center;
+}
+
+.images-texts__title {
+  margin-bottom: 24px;
+}
+
+.images-texts__images {
+  display: grid;
+  gap: 4px;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.images-texts__images img {
+  width: 100%;
+}
+
+.images-texts__texts {
+  margin-top: 22px;
+}
+
+@media (min-width: 1024px) {
+  .images-texts {
+    max-width: 810px;
+  }
+
+  .images-texts__texts,
+  .images-texts__title {
+    margin-bottom: 46px;
+  }
+
+  .images-texts__images {
+    gap: 32px;
+    padding-inline: 10px;
+  }
+}
