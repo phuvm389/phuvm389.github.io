@@ -20,6 +20,7 @@
 .box-feature__image {
   border-radius: 24px;
   overflow: hidden;
+  line-height: 0;
 }
 
 .box-feature__image img {
